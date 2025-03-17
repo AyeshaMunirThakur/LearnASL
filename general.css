@@ -1,0 +1,185 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  /*  webpg border and margin size */
+  } 
+
+  body {
+    background-color:#4F6F52; /*  webpg background color*/
+    color: #000000;           /*  webpg text  color */
+  }
+  
+  header {
+    display: flex; /* prevents txt from going under the logo */
+    justify-content: space-between;   /* pushes txt to the right*/
+    align-items: center;   /* centers txt to the bar */
+    background-color: #E2DBCB; /* nav bar  color */
+    padding: 20px 30px; 
+  }
+  
+  /* NAV  BAR - logo img*/
+  .logo img {
+    height: 50px;
+    margin-right: 20px;
+  }
+  
+
+  /* NAV */
+  nav ul {
+    list-style: none;  /*  removes the default bullet points */
+    display: flex; /* arranges them in a row */ 
+    gap: 20px; /* 20-pixel space between each flex item */
+  }
+  nav ul li a {
+    font-family: "ff-prater-block-web", sans-serif;
+    font-weight: 800;              /* code from adobe fonts web */
+    font-size: large;
+    text-decoration: none;  /* cancels weird lines under the txt in nav bar */
+    color: #3B3B3B;       /* text in nav */
+  }
+  nav ul li a:hover,
+  nav ul li a.active {
+    color: #4F6F52;    /* nav Hover color */
+  }
+
+
+
+  /* MAIN PAGE */
+
+  .home-main {
+    text-align: center;
+    padding: 60px 20px;
+  }
+
+
+  .maingraphic img {
+    max-width: 100%; 
+    height: auto; 
+    display: block; 
+    margin: 0 auto; 
+    object-fit: contain; /* Prevents squishing */
+    padding: 60px 20px;
+}
+
+
+  
+  /* BUTTONS ON MAIN PAGE */
+  .button-container {
+    display: flex;
+    flex-direction: column; /* Arranges the child elements vertically */
+    align-items: center;
+    max-width: 400px;
+    margin: 0 auto;
+    padding-top: 100px; 
+  }
+
+  .bottom-buttons {
+    display: flex;
+    gap: 20px;
+  }
+
+.btn img {
+    width: 400px;
+    height: auto;
+}
+
+.btn {
+  display: inline-block; /* lets you control the dimensions and box model of an element  */
+  padding: 15px 20px;
+}
+
+.btn:hover {
+  background-color: #E2DBCB; /*  homepg box hover effect color */
+}
+  
+/* CONTENT TEXT BOX  */
+
+  .content-box {
+    background-color: #E2DBCB; /* txt box color */
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 5px;  /* curves border edges */
+  }
+
+   .content-box p {
+    font-family: "jaf-bernina-sans-narrow", sans-serif;
+    font-weight: 400;
+    font-style: normal;   
+
+    text-align: left ;
+    margin: 20px;
+    max-width: 900px;
+  } 
+
+
+/* TITLE IMG IN ALL PGS */
+.title img{
+  max-width: 20%;  /* ensures the image doesn't grow too large */
+  height: auto; 
+  display: block; /* Changes the image to a block element */
+  margin: auto;  /* ensures the image doesn't grow too large */
+  object-fit: contain; /* Prevents squishing */
+}
+  
+/* ABOUT PAGE  */
+  .welcome-image {
+    display: block;
+    max-width: 40%;
+    height: auto;
+    margin: 0 auto; 
+}
+
+ /* HISTORY PAGE  */
+
+.school-image{
+  display: block;
+  max-width: 300px;
+  height: auto;
+  margin: 0 auto; 
+  padding-top: 10px; 
+}
+
+.marth-image{
+  float: right; 
+  max-width: 250px;
+  height: auto; 
+  margin: 0 15px 10px 80px; 
+  padding: 10px ;
+}
+
+.williamstokoe-image {
+  float: right; 
+  max-width: 125px; 
+  height: auto; 
+  margin: 0 20px 20px; 
+  padding: 10px ;
+}
+
+
+
+
+  /* BASIC ASL PG IMG  */
+
+  .asl-basic {
+    display: flex;
+    flex-direction: column; /* or row if you prefer */
+    align-items: center;    /* centers items horizontally in a column layout */
+    margin-top: 40px;
+  }
+
+  .asl-alphabet img {
+    max-width: 850px;
+    height: 100;
+    padding-bottom: 10px;
+  }
+  
+  .asl-phrases img {
+    max-width: 600px;
+    height: auto;
+    padding-bottom: 50px;
+  } 
+
+
+  
